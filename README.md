@@ -15,3 +15,9 @@ b) Yet Another Resource Navigator Yarn − YARN takes care of the resource manag
    
    
 c) Spark in MapReduce (SIMR) - Spark in MapReduce is used to launch spark job in addition to standalone deployment. With SIMR, user can start Spark and uses its shell without any administrative access.
+
+
+Data present in volume mounted will be transfered to HDFS as per some initialization script.
+
+
+jupyter notebook container will also be added to submit spark requests.
